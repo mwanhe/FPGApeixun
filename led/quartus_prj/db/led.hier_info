@@ -1,0 +1,7 @@
+|led
+led0 <= <GND>
+led1 <= <VCC>
+led2 <= <VCC>
+led3 <= <GND>
+
+

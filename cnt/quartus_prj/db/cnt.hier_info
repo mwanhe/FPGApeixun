@@ -1,0 +1,15 @@
+|cnt
+clk => cnt_out[0]~reg0.CLK
+clk => cnt_out[1]~reg0.CLK
+clk => cnt_out[2]~reg0.CLK
+clk => cnt_out[3]~reg0.CLK
+rst_n => cnt_out[0]~reg0.ACLR
+rst_n => cnt_out[1]~reg0.ACLR
+rst_n => cnt_out[2]~reg0.ACLR
+rst_n => cnt_out[3]~reg0.ACLR
+cnt_out[0] <= cnt_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cnt_out[1] <= cnt_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cnt_out[2] <= cnt_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cnt_out[3] <= cnt_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
